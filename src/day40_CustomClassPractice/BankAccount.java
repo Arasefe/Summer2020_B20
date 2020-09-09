@@ -6,7 +6,7 @@ BankAccount
       	Actions:
       		1. CheckBalance,   2. deposit,  3. withdraw
 
-          requiremnts:
+          requirements:
             1. user should be able to deposit money into their account
             2. user should be able to withdraw money from their account
             3. user should be able to see their balance
