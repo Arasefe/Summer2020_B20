@@ -1,4 +1,4 @@
-package day60_Collections;
+package day60_Collections.muhtar;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

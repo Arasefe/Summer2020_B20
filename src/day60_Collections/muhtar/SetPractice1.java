@@ -1,8 +1,8 @@
-package day60_Collections;
+package day60_Collections.muhtar;
 
 import java.util.*;
 
-public class SetInterface {
+public class SetPractice1 {
     public static void main(String[] args) {
 
         Set<Integer> s1 = new HashSet<>();
@@ -20,7 +20,7 @@ public class SetInterface {
 
 
         Set<Integer> s3 = new TreeSet<>();
-        s3.addAll(Arrays.asList(8, 5, 4, 3, 2, 10, 7, 1));
+        s3.addAll(Arrays.asList(8, 5, 4, 3, 2, 10, 7, 1, 4, 5, 3, 0, 12));
 
         System.out.println("TreeSet: " + s3);
 

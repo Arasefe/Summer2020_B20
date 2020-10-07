@@ -1,4 +1,4 @@
-package day60_Collections;
+package day60_Collections.muhtar;
 
 public class NullKeyword {
     public static void main(String[] args) {

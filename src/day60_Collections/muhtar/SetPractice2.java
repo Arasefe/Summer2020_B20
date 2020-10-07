@@ -1,10 +1,10 @@
-package day60_Collections;
+package day60_Collections.muhtar;
 
 import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class SetPractice {
+public class SetPractice2 {
     // write aprogram that can remove duplicates from string
 
     public static void main(String[] args) {

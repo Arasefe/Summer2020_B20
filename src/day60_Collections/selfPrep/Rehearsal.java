@@ -8,23 +8,24 @@ public class Rehearsal {
         //methodLinkedList();
         methodVector();
     }
-    public static void methodListInterface(String[]arr){
-//      List<String> names1 = new ArrayList<>();
-//      List<String> names2 = new LinkedList<>();
-//      List<String> names3 = new Vector<>();
-//      Vector<String> names4 = new Stack<>();
-//
-      // Converting between Array and ArrayList
 
-//      ArrayList<String>list=new ArrayList<>(Arrays.asList(arr));
-//      System.out.println(list);
+    public static void methodListInterface(String[] arr) {
+        List<String> names1 = new ArrayList<>();
+        List<String> names2 = new LinkedList<>();
+        List<String> names3 = new Vector<>();
+        Vector<String> names4 = new Stack<>();
 
-      List<String>list1=new ArrayList<>(9);
-      list1.addAll(Arrays.asList(arr));
+        //Converting between Array and ArrayList
+
+        ArrayList<String> list = new ArrayList<>(Arrays.asList(arr));
+        System.out.println(list);
+
+        List<String> list1 = new ArrayList<>(9);
+        list1.addAll(Arrays.asList(arr));
         System.out.println(list1);
     }
 
-    public static void methodLinkedList(){
+    public static void methodLinkedList() {
          /*
         LinkedList implements the Collection interface.
         Each item in the list is aware of the next item.
@@ -34,7 +35,7 @@ public class Rehearsal {
         In LinkedList, the manipulation is fast because no shifting is required.
          */
 
-        List<Integer>number=new LinkedList<>();
+        List<Integer> number = new LinkedList<>();
         number.add(1);
         number.add(3);
         number.add(new Integer(9));
@@ -42,30 +43,31 @@ public class Rehearsal {
         number.add(1);
         number.add(new Integer(9));
 
-        number.add(1,7);
+        number.add(1, 7);
 
-        number.addAll(Arrays.asList(3,5,7,9));
+        number.addAll(Arrays.asList(3, 5, 7, 9));
         System.out.println(number);
 
-        System.out.println("LinkedList: "+ number.get(1));
+        System.out.println("LinkedList: " + number.get(1));
 
     }
-    public static void methodVector(){
+
+    public static void methodVector() {
         /*
         Vector uses a dynamic array to store the data elements.
         It is similar to ArrayList.
         However, It is synchronized and contains many methods that are not the part of Collection framework.
         Since JDK 1.0
          */
-        List<Integer>numbers=new Vector<>();
-        numbers.addAll(Arrays.asList(1,2,3,4,5));
-        numbers.addAll(Arrays.asList(1,2,3,4,5));
+        List<Integer> numbers = new Vector<>();
+        numbers.addAll(Arrays.asList(1, 2, 3, 4, 5));
+        numbers.addAll(Arrays.asList(1, 2, 3, 4, 5));
         System.out.println(numbers);
-        numbers.add(3,0);
+        numbers.add(3, 0);
 
 
-        System.out.println("Vector: "+numbers);
-        System.out.println("Vector "+numbers.get(8));
+        System.out.println("Vector: " + numbers);
+        System.out.println("Vector " + numbers.get(8));
 
 
     }

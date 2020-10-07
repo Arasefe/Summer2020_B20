@@ -1,4 +1,4 @@
-package day60_Collections;
+package day60_Collections.muhtar;
 
 import java.util.*;
 
@@ -16,9 +16,10 @@ public class RemoveDuplicates1 {
      */
 
     public static void main(String[] args) {
-        System.out.println(anagram1());
-        System.out.println(anagram2());
-        System.out.println(anagram3());
+//        System.out.println(anagram1());
+//        System.out.println(anagram2());
+//        System.out.println(anagram3());
+        System.out.println(anagram4());
 
     }
     public static boolean anagram1(){
@@ -61,6 +62,19 @@ public class RemoveDuplicates1 {
         str2=new TreeSet<>(Arrays.asList(str2.split(""))).toString();
 
         return str1.equals(str2);
+    }
+
+    public static boolean anagram4(){
+        String str1 = "babcabcaaaccbbcb";
+        String str2 = "cab";
+        Set<String>list1=new TreeSet<>();
+        list1.addAll(Arrays.asList(str1.split("")));
+        str1=list1.toString();
+
+        Set<String>list2=new HashSet<>();
+        list2.addAll(Arrays.asList(str2.split("")));
+        list2.toString();
+        return list1.equals(list2);
     }
 
 }
