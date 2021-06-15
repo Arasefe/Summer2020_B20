@@ -2,9 +2,9 @@ package day02_printStatements;
 
 public class HelloWorld {
 
-    public static void main( String[] args ) {  //main method
+    public static void main(String[] args) {  //main method
 
-        System.out.println( "Hello Wolrd" );
+        System.out.println("Hello World");
 
     }
 
