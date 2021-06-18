@@ -7,12 +7,21 @@ public class Swap2 {
         int a = 10;
         int b = 15;
 
-       a = a + b ;  // a = 25;  b = 15
-       b =  a - b;  // b = 10,  a= 25
-       a =  a - b;  // a = 15, b = 10
+       a = a + b;  // a = 25;  b = 15
+       b = a - b;  // b = 10,  a= 25
+       a = a - b;  // a = 15, b = 10
 
-        System.out.println(b);
-        System.out.println(a);
+        System.out.println("b= "+b);
+        System.out.println("a= "+a);
+
+
+        a = a*b;
+        b = a/b;
+        a = a/b;
+
+        System.out.println("b= "+b);
+        System.out.println("a= "+a);
+
 
     }
 

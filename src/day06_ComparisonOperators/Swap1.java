@@ -6,13 +6,14 @@ public class Swap1 {
         int a = 20;
         int b = 25;
 
-        int c = b; // c = 25;
+        int c = 0; // This is the temporary variable
+        c = a;
+        a = b;
+        b = c;
 
-        b = a;    // b = 20
-        a = c;   // a = 25
 
-        System.out.println(a);  // 25
-        System.out.println(b);  // 20
+        System.out.println("a = "+a);  // 25
+        System.out.println("b = "+b);  // 20
 
     }
 

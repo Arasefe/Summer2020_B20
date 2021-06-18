@@ -8,8 +8,8 @@ import java.util.Arrays;
 
 public class UnicodeConverter {
     public static void main(String[] args) {
-        String original = new String("A" + "\u004d" + "\u0045" + "\u0020" + "C");
-        //String original = new String("ME 04106 USA");
+        //String original = new String("A" + "\u004d" + "\u0045" + "\u0020" + "C");
+        String original = new String("262 Greensboro Ct, Elk Grove Village IL");
 
 
         try {
