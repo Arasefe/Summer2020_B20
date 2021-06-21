@@ -5,8 +5,12 @@ package day07_Unary_ShortHand;
 public class Divisible_2_3_5 {
 
     public static void main(String[] args) {
-        int number = 25;
+        isDivisible(24);
 
+
+    }
+
+    public static void isDivisible(int number){
         boolean divisibleBy2 = number % 2 ==0 ;
         boolean divisibleBy3 = number % 3 ==0 ;
         boolean divisibleBy5 = number % 5 ==0 ;

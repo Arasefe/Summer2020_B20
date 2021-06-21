@@ -15,7 +15,7 @@ public class LeapYear {
     /**
      *  A year may be leap year if it is evenly divisible by 4
      *  Years that are divisible by 100 can not be leap unless also divisible by 400
-     * @param year
+     * @param year is the parameter passed to the method to check if it is the leap year
      */
     public static void isLeapYear(int year){
 

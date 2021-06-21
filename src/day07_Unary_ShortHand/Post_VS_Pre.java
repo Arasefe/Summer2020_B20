@@ -10,7 +10,7 @@ public class Post_VS_Pre {
         System.out.println("=================================");
 
         int b = 10;
-        System.out.println( b++ ); //10
+        System.out.println(b++); //10
         System.out.println(b); //11
 
         System.out.println("==========================");
@@ -27,28 +27,26 @@ public class Post_VS_Pre {
 
         System.out.println("============================");
         int x = 8;
-       int y =  x--; //  y = 8
+        int y = x--; //  y = 8
         System.out.println(y);
         System.out.println(x); //7
 
         System.out.println("============================");
         int A = 1;// A=-1
         A = -A-- + A++ / -A-- * --A;
-   // A =  -1    +  0  /   -1  *  -1
-  //  A =  -1   +    0   *   -1
- //   A = -1 +  0  = -1
+        // A =  -1    +  0  /   -1  *  -1
+        //  A =  -1   +    0   *   -1
+        //   A = -1 +  0  = -1
 
         System.out.println(A);
 
         System.out.println("============================");
         int B = 50; //B = 50
         B = --B + B++ + B-- + B++;
-    // B =  49  + 49  + 50  +  49
-   // B =  197
+        // B =  49  + 49  + 50  +  49
+        // B =  197
 
         System.out.println(B);
-
-
 
 
     }

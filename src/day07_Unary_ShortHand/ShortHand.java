@@ -1,10 +1,19 @@
 package day07_Unary_ShortHand;
 
 public class ShortHand {
+    /*
+                                        Meaning
+    Assignment x=y;                     x=y
+    Addition Assignment x+=y;           x=x+y
+    Subtraction Assignment x-=y;        x=x-y;
+    Multiplication Assignment x*=y;     x=x*y
+    Division Assignment x/=y;           x=x/y
+    Remainder Assignment x%=y;          x=x%y
+     */
 
     public static void main(String[] args) {
-        int a = 100;
-      //   a = a * a;
+        int a = 10;
+        //   a = a * a;
         a *= a;
 
         System.out.println(a);
@@ -21,55 +30,55 @@ public class ShortHand {
         System.out.println("================================");
 
         // +=:
-            int z = 300;
-            z += 200; // z = z + 200
+        int z = 300;
+        z += 200; // z = z + 200
 
         System.out.println(z);
 
         String schoolName = "Cybertek";
-            //    schoolName = schoolName + " School";
+        //    schoolName = schoolName + " School";
         schoolName += " School";
 
         System.out.println(schoolName);
 
 
         String fullName = "Mickey";
-                fullName += " Mouse";
+        fullName += " Mouse";
 
         System.out.println(fullName);
 
         String firstName = "Aaron Daniel";
-           //    firstName -= " Daniel";
+        //    firstName -= " Daniel";
 
 
         // /=
-            int budget = 100000;
-                budget /= 4;
+        int budget = 100000;
+        budget /= 4;
 
         System.out.println(budget);
 
         //
         int q = 100;
 
-        System.out.println(q/2);  //50
-        System.out.println( q ) ;  // 100
+        System.out.println(q / 2);  //50
+        System.out.println(q);  // 100
 
 
         int x = 100;
-            x /= 2; // 50
+        x /= 2; // 50
         System.out.println(x);
 
-            x *=2; //100
+        x *= 2; //100
         System.out.println(x);
 
         // %=
         int num = 100;
-            num %= 3;
+        num %= 3;
 
-        System.out.println(num);
+        System.out.println("num= "+num);
 
         double num2 = 400.5;
-                num2 %= 2;
+        num2 %= 2;
 
         System.out.println(num2);
 
