@@ -7,10 +7,21 @@ public class LeapYear {
 
     public static void main(String[] args) {
 
-        int year = 2040;
-          boolean result =  year % 4 == 0;
+        isLeapYear(2024);
 
-        System.out.println("Year " + year + " is a leap year: " + result); // 2021 is a leap year: false
+    }
+
+
+    /**
+     *  A year may be leap year if it is evenly divisible by 4
+     *  Years that are divisible by 100 can not be leap unless also divisible by 400
+     * @param year
+     */
+    public static void isLeapYear(int year){
+
+        boolean isLeapYear= (year % 4==0) || (year % 100==0 & year%400==0);
+
+        System.out.println("Year " + year + " is a leap year: " + isLeapYear); // 2021 is a leap year: false
 
     }
 

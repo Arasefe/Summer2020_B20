@@ -21,45 +21,45 @@ public class RelationalOperators {
         System.out.println(r5);
 
         // ==: equal
-        boolean r6 =  900 == 800;
+        boolean r6 = 900 == 800;
         System.out.println(r6);
 
         boolean r7 = true == false;
         System.out.println(r7);
 
-        boolean r8 = "Muhtar"  == "Good Guy";
+        boolean r8 = "Muhtar" == "Good Guy";
         System.out.println(r8);
 
         boolean r9 = "muhtar" == "MUHTAR";
         System.out.println(r9);
 
-     //  boolean r10 = "123" == 123;
+        //  boolean r10 = "123" == 123; must be same data type otherwise does not compile
 
         // !=
         boolean r11 = "Muhtar" != "Bad Guy";
         System.out.println(r11);
 
-        boolean r12 =  true != false;
+        boolean r12 = true != false;
         System.out.println(r12);
 
 
         boolean result1 = 'A' == 65;
         System.out.println(result1);
 
-        boolean result2 = 100 == 100.0; // $100  $100.0
+        boolean result2 = 100 == 100.0; // $100  $100.0  true
         System.out.println(result2);
 
         boolean result3 = true;
 
         System.out.println(result3);
 
-        boolean result4 = "100" == "100.0";
+        boolean result4 = "100" == "100.0";         // false
         System.out.println(result4);
 
 
-    int number = 101;
-    boolean even =  number%2 == 0;
-    boolean odd =  number%2 != 0;
+        int number = 101;
+        boolean even = number % 2 == 0;
+        boolean odd = number % 2 != 0;
 
         System.out.println(even);
         System.out.println(odd);
