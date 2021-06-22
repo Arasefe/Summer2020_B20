@@ -8,11 +8,15 @@ package day08_LogicalOperators;
 public class GallonsToLitters {
 
     public static void main(String[] args) {
-        double gallons = 20;
+        gallonToLitter(20);
+
+    }
+
+    public static void gallonToLitter(double gallons){
+
         double litters = gallons * 3.785;
 
         System.out.println(gallons+" gallons equal to " + litters + " litters");
-
 
     }
 

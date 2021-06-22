@@ -1,6 +1,6 @@
 package day09_IfStatement;
 //  4. write a java program that can identify if a person is eligible to buy alcohol
-public class alcohol {
+public class Alcohol {
 
     public static void main(String[] args) {
         boolean hasID = true;

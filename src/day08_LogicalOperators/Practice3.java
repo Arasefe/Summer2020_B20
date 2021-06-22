@@ -3,7 +3,7 @@ package day08_LogicalOperators;
 public class Practice3 {
 
     public static void main(String[] args) {
-        int b =2; // b=2
+        int b = 2; // b=2
         boolean res = ++b == 2 || --b == 2 && --b == 2;
         //             3  == 2 ||  2  == 2 &&  1 == 2
         //              false  ||  true    &&  false
@@ -23,9 +23,9 @@ public class Practice3 {
         boolean A = true;
         boolean B = !A; // b=false
 
-        boolean C = A != B   && A == !B      && !A == B;
-    //         true != false &&  true ==true && false == false
-    //              true     &&   true       &&  true
+        boolean C = A != B && A == !B && !A == B;
+        //         true != false &&  true ==true && false == false
+        //              true     &&   true       &&  true
 
         System.out.println(C);
 

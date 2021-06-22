@@ -19,11 +19,11 @@ public class PostAndPre {
         // b = - 200 -  0 = -200
 
         System.out.println(b);
-        System.out.println( a );
+        System.out.println(a);
 
         int x = 300;
         int y = 400;
-        int z = x + y - x * y +x / y;
+        int z = x + y - x * y + x / y;
         // z =  300 + 400 - 300 * 400 + 300 / 400
         // z = 300 + 400 - 120000 + 300 / 400(0.75)
         // z = 300 + 400 - 120000 + 0
