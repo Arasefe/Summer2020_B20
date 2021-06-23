@@ -3,7 +3,17 @@ package day11_NestedIf_Ternary;
 public class Ternary {
 
     public static void main(String[] args) {
-        int num = 100;
+        // second task: "can vote" or "Cannot vote"
+        // third task: write a program that can check if two numbers are equal or not.
+        ifToTernary1(223);
+        ifToTernary2(3,5);
+        ifToTernary3(34);
+
+
+    }
+
+    private static void ifToTernary1(int num){
+
         String result = "";
 
         if(num % 2 == 0){
@@ -13,32 +23,35 @@ public class Ternary {
         }
 
         System.out.println(result);
-        System.out.println("========================================");
-
-       String result2 = (num % 2 == 0) ? "Even" : "Odd" ;
-
-        System.out.println(result2);
-
 
         System.out.println("================================================");
-        int num1 = 1000;
-        int num2 = 20;
 
-        int max1 = 0;
+        String result2 = (num % 2 == 0) ? "Even" : "Odd" ;
+
+        System.out.println(result2);
+    }
+
+    private static void ifToTernary2(int num1, int num2){
+
+        int max = 0;
 
         if(num1 > num2){
-            max1 = num1;
+            max = num1;
         }else{
-            max1 = num2;
+            max = num2;
         }
 
-        System.out.println(max1);
+        System.out.println(max);
 
-        int max2 =  (num1 > num2) ? num1 : num2;
-        System.out.println(max2);
+        System.out.println("================================================");
 
-        System.out.println("=================================================");
-        int age = 25;
+        max =  (num1 > num2) ? num1 : num2;
+        System.out.println(max);
+
+    }
+
+    private static void ifToTernary3(int age){
+
         boolean eligible = false;
 
         if(age >= 21){
@@ -50,15 +63,10 @@ public class Ternary {
         System.out.println(eligible);
         // first task: convert the if statements above to ternary
 
+        System.out.println("=================================================");
+
         boolean eligible2 = (age >= 21) ? true : false ;
         System.out.println(eligible2);
-
-
-
-        // second task: "can vote" or "Cannot vote"
-
-        // third task: write a program that can check if two numbers are equal or not.
-
 
 
     }

@@ -1,10 +1,16 @@
 package day11_NestedIf_Ternary;
 
 public class Ternary_Practice2 {
-    // ?  means if, : else
+    // ?  means if, : else  :? Else if
 
     public static void main(String[] args) {
-        int num = 100;
+        multiBranchTernary1(100);
+        multiBranchTernary2(12,13);
+
+    }
+
+    private static void multiBranchTernary1(int num){
+
         String result = "";
 
         if(num > 0){
@@ -20,7 +26,9 @@ public class Ternary_Practice2 {
         System.out.println(result);
         System.out.println(result2);
 
-        System.out.println("================================================");
+    }
+
+    private static void multiBranchTernary2(int a, int b){
         /*
             write a program that can compare two number
                 a = 10, b= 20
@@ -33,14 +41,12 @@ public class Ternary_Practice2 {
                output: a is equal to b
 
          */
-        int a = 20;
-        int b = 20;
+        a = 20;
+        b = 20;
 
         String r =  (a> b) ? a+" is greater" :(b > a)? b+" is greater" : a+" is equal to "+b;
 
         System.out.println(r);
-
-
 
     }
 

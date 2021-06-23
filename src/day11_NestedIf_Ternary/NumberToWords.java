@@ -6,10 +6,14 @@ package day11_NestedIf_Ternary;
 
 public class NumberToWords {
     public static void main(String[] args) {
-        int num = 10;
+        numberToWord(10);
+
+
+    }
+
+    public static void numberToWord(int num){
 
         String result = "";
-
 
         if(num ==0){
             result = "zero";
@@ -36,8 +40,6 @@ public class NumberToWords {
         }
 
         System.out.println(result);
-
-
 
     }
 
