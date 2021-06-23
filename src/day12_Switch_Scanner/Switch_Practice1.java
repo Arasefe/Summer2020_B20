@@ -4,53 +4,49 @@ public class Switch_Practice1 {
 
     public static void main(String[] args) {
 
-        long c = 10; // 10L
-        float f = 10;  //10.0f
-        double d = 10; // 10.0
 
 
-       int num = 4;
+
+
+    }
+
+    private static void daysOfTheWeek(int day){
+        long c = 10;    // 10L
+        float f = 10;   // 10.0f
+        double d = 10;  // 10.0
+
+
         String result = "";
 
-        switch(num){
+        switch(day){
             case 1:
-               result = "Monday";
+                result = "Monday";
                 break;
-
             case 2:
-               result = "Tuesday";
+                result = "Tuesday";
                 break;
-
             case 3:
                 result = "Wednesday";
                 break;
-
             case 4:
                 result = "Thursday";
                 break;
-
             case 5:
                 result = "Friday";
                 break;
-
             case 6:
                 result = "Saturday";
                 break;
-
             case 7:
-               result = "Sunday";
+                result = "Sunday";
                 break;
-
             default:
-               result = "Invalid";
+                result = "Invalid";
 
         }
 
 
         System.out.println(result);
-
-
-
 
     }
 

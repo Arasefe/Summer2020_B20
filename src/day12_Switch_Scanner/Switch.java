@@ -3,10 +3,14 @@ package day12_Switch_Scanner;
 public class Switch {
 
     public static void main(String[] args) {
+        switchMethod(3);
 
-        int a = 1;
+    }
 
-        switch(a){
+    private static void switchMethod(int num) {
+
+
+        switch (num) {
 
             case 5:
                 System.out.println("Five");
@@ -20,10 +24,7 @@ public class Switch {
                 System.out.println("Invalid Case");
 
         }
-
-
-
-
     }
-
 }
+
+

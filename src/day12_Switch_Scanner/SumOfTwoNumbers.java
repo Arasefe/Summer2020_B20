@@ -3,6 +3,10 @@ import java.util.Scanner;
 public class SumOfTwoNumbers {
 
     public static void main(String[] args) {
+        sumOfTwoNumbers();
+
+    }
+    private static void sumOfTwoNumbers(){
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your first number: ");
         int a = scan.nextInt();
@@ -12,6 +16,7 @@ public class SumOfTwoNumbers {
         int sum = a+b;
         System.out.println( "Sum of those two numbers are: " +  sum );
 
+        scan.close();
 
     }
 

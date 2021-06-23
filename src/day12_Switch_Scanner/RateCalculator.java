@@ -13,8 +13,11 @@ import java.util.Scanner;
 public class RateCalculator {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        rateCalculator();
+    }
 
+    private static void rateCalculator(){
+        Scanner input = new Scanner(System.in);
         System.out.println("Enter your annual salary: ");
         double salary =  input.nextDouble();
         System.out.println("How many hours do you work in a week");
@@ -25,6 +28,8 @@ public class RateCalculator {
         double hourlyRate = salary / totalHours;
 
         System.out.println("Your hourly rate is: $"+hourlyRate);
+
+        input.close();
 
     }
 

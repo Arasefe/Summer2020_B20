@@ -14,8 +14,8 @@ package day12_Switch_Scanner;
 
 public class AgeGroups {
     public static void main(String[] args) {
-        ageGroups1(-1);
-        ageGroups2(-1);
+        ageGroups1(23);
+        ageGroups2(23);
 
 
     }
@@ -36,7 +36,7 @@ public class AgeGroups {
         if (age >= 0 && age <= 14) {            // age <= 14
             ageGroup = "Children";
         } else if (age <= 24) {                 // age <= 24
-            ageGroup = "Teenager";
+            ageGroup = "Youth";
         } else if (age <= 64) {                 // age <= 64
             ageGroup = "Adult";
         } else if (age <= 90) {                 // age <= 90

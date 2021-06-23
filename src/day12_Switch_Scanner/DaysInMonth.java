@@ -13,7 +13,13 @@ package day12_Switch_Scanner;
 public class DaysInMonth {
 
     public static void main(String[] args) {
-        int month = 7;
+        daysOfTheMonth1(13);
+        daysOfTheMonth2(3);
+
+    }
+
+    private static void daysOfTheMonth1(int month){
+
         String result = "";
 
         switch(month){
@@ -23,11 +29,9 @@ public class DaysInMonth {
             case 11:
                 result ="30 Days";
                 break;
-
             case 2:
                 result ="28 Days";
                 break;
-
             case 1:
             case 3:
             case 5:
@@ -37,28 +41,18 @@ public class DaysInMonth {
             case 12:
                 result ="31 Days";
                 break;
-
             default:
                 result ="Invalid";
-
         }
 
         System.out.println(result);
 
-
-
-        /*
-        int a = 10;
-            a= 20;
-            a = 30;
-            a = 50;
-        System.out.println(a);
-        */
-
-
     }
-
-
-
+    private static void daysOfTheMonth2(int month){
+        String result="";
+        result=(month==2)?"28 Days":(month==4||month==6||month==9||month==11)?"30 Days"
+                :(month==1||month==3||month==5||month==7||month==8||month==10||month==12)?"31 Days":"Invalid";
+        System.out.println(result);
+    }
 
 }
