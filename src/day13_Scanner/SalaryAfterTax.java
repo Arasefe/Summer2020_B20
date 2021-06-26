@@ -13,16 +13,20 @@ public class SalaryAfterTax {
 
     public static void main(String[] args) {
 
+
+
+    }
+    private static void takeHomeSalary(){
         Scanner  input = new Scanner(System.in);
         System.out.println("Enter your annual salary: ");
-        int salary  =    input.nextInt();  // 100000
+        int salary  =    input.nextInt();               // 100000
 
         System.out.println("Enter your state tax rate: ");
-         double stateTaxRate =  input.nextDouble(); // 0.08
-         double stateTax = salary * stateTaxRate;
+        double stateTaxRate =  input.nextDouble();     // 0.08
+        double stateTax = salary * stateTaxRate;
 
         System.out.println("Enter your federal tax rate: ");
-        double federalTaxRate =   input.nextDouble(); // 0.2
+        double federalTaxRate =   input.nextDouble();   // 0.2
         double federalTax = salary * federalTaxRate;
 
         double salaryAfterTax = salary - (stateTax + federalTax);
@@ -32,10 +36,7 @@ public class SalaryAfterTax {
         System.out.println("Federal tax : $ " +federalTax);
         System.out.println("your salary after tax: $ " + salaryAfterTax);
 
-
-
-
-
+        input.close();
     }
 
 }

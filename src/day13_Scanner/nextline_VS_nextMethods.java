@@ -5,11 +5,15 @@ import java.util.Scanner;
 public class nextline_VS_nextMethods {
 
     public static void main(String[] args) {
+
+    }
+
+    private static void method(){
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your salary: ");
-        double salary = scan.nextDouble(); //100000
+        double salary = scan.nextDouble();  //100000
 
-        scan.nextLine(); // Enter
+        scan.nextLine();                    // Enter
         // use use this to take out the Enters tht are left in the scanner. so that we can use the next netxline method
 
 
@@ -19,7 +23,7 @@ public class nextline_VS_nextMethods {
         System.out.println("Salary: "+salary);
         System.out.println("full name: "+fullName);
 
-
+        scan.close();
     }
 
 
