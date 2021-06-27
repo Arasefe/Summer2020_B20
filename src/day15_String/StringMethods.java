@@ -1,36 +1,36 @@
 package day15_String;
 
-public class String_Methods {
+public class StringMethods {
     public static void main(String[] args) {
         String name = "Cybertek School is a great place";
         //             01234567
 
         // charAt(index):
-            char ch1 = name.charAt(0); //'C'
-            char ch2 = name.charAt(5); //'t'
+        char ch1 = name.charAt(0); //'C'
+        char ch2 = name.charAt(5); //'t'
         System.out.println(ch1);
         System.out.println(ch2);
 
         // length() ==> int
-         int l =   name.length();
+        int l = name.length();
         System.out.println(l);
 
         // last index: length of String - 1
         int lastIndexNumber = name.length() - 1;
 
-        System.out.println( lastIndexNumber );
+        System.out.println(lastIndexNumber);
 
         char lastChar = name.charAt(lastIndexNumber);
         System.out.println(lastChar);
 
         //concat(Str): concatenation
-            String schoolName = "Cybertek";
+        String schoolName = "Cybertek";
 
-                schoolName = schoolName.concat(" School");   //"Cybertek School"
+        schoolName = schoolName.concat(" School");   //"Cybertek School"
 
         System.out.println(schoolName);
 
-        String r1 = "Cybertek" + 123 + 'A'+true;   //123
+        String r1 = "Cybertek" + 123 + 'A' + true;   //123
         System.out.println(r1);
 
         String r2 = "Cybertek".concat("123");
@@ -38,7 +38,7 @@ public class String_Methods {
 
         // toLowerCase():
         String name1 = "CYBERTEK SCHOOL";
-                 name1 = name1.toLowerCase();    // "cybertek school"
+        name1 = name1.toLowerCase();    // "cybertek school"
 
         System.out.println(name1);
 
@@ -53,10 +53,9 @@ public class String_Methods {
 
         // trim():
         String p = "     Cybertek       School    ";
-              p =  p.trim();  // "Cybertek School"
+        p = p.trim();  // "Cybertek School"
 
         System.out.println(p);
-
 
 
     }

@@ -1,9 +1,14 @@
 package day15_String;
 
-public class substring_method {
+public class SubstringMethod {
 
     public static void main(String[] args) {
 
+        subStringMethod();
+
+    }
+
+    private static void subStringMethod(){
         String sentence = "Java is fun";
         //                 0123456789..
 
@@ -38,7 +43,7 @@ public class substring_method {
         String firstChar = lastName.substring(0,1);  //s
         String remaining = lastName.substring(1); // chool
 
-         lastName = firstChar.toUpperCase() + remaining.toLowerCase(); //"School"
+        lastName = firstChar.toUpperCase() + remaining.toLowerCase(); //"School"
 
         System.out.println(lastName);
 

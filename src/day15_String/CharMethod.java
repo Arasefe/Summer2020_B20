@@ -2,22 +2,25 @@ package day15_String;
 
 import java.util.Scanner;
 
-public class Practice1 {
+public class CharMethod {
     // write a program that asks the user enter first name then last name.
-        // print the initails of the person
+    // print the initials of the person
 
     public static void main(String[] args) {
+        stringCharMethod();
+
+    }
+    private static void stringCharMethod(){
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your first name: ");
-        String firstName = input.next();  //Cybertek
-          char ch1 =  firstName.charAt(0);
+        String firstName = input.next();    //Cybertek
+        char ch1 = firstName.charAt(0);
 
         System.out.println("Enter your last name: ");
-        String lastName = input.next(); // School
+        String lastName = input.next();     // School
         char ch2 = lastName.charAt(0);
 
-        System.out.println("Your initial is: "+ch1+ch2);
-
+        System.out.println("Your initial is: " + ch1 + ch2);
     }
 
 }
