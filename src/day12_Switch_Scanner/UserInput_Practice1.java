@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class UserInput_Practice1 {
 
     public static void main(String[] args) {
-
+        userInput1();
     }
 
     private static void userInput1(){

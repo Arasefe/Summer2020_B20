@@ -14,22 +14,22 @@ import java.util.Scanner;
 public class Scanner_Practice {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in); //Enter
+        Scanner input = new Scanner(System.in);
         System.out.println("Enter your gender");
-        String gender = input.next(); // female
+        String gender = input.next();   // female
 
         System.out.println("Enter your age: ");
-        int age = input.nextInt(); // 19
+        int age = input.nextInt();      // 19
 
-        input.nextLine(); // Enter Enter
+        input.nextLine();               // Enter Enter
 
         System.out.println("Enter your country name: ");
         String countryName = input.nextLine();
 
         System.out.println("Enter your zipcode: ");
-        int zipCode = input.nextInt(); //12345
+        int zipCode = input.nextInt();  //12345
 
-        input.nextLine(); // Enter
+        input.nextLine();               // Enter
 
         System.out.println("Enetr your full name");
         String fullName = input.nextLine();
