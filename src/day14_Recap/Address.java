@@ -21,10 +21,15 @@ import java.util.Scanner;
                               MCLean, VA 22102
  */
 public class Address {
+    static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+
+        shipToAddress();
+    }
+    public static void shipToAddress() {
         System.out.println("Enter your building number: ");
+
         int buildingNumber = scan.nextInt();
 
         scan.nextLine();
@@ -33,7 +38,7 @@ public class Address {
         String streetAddress = scan.nextLine();
 
         System.out.println("Enter your city name: ");
-        String cityName =  scan.nextLine();
+        String cityName = scan.nextLine();
 
         System.out.println("Enter your state: ");
         String stateName = scan.next();
@@ -54,11 +59,9 @@ public class Address {
                   MCLean, VA 22102
          */
 
-        System.out.println("\nShip To: "+fullName+"\n"+buildingNumber+" "+streetAddress
-                +"\n"+cityName+", "+stateName+" "+zipCode);
+        System.out.println("\nShip To: " + fullName + "\n" + buildingNumber + " " + streetAddress
+                + "\n" + cityName + ", " + stateName + " " + zipCode);
 
 
     }
-
-
 }

@@ -12,13 +12,17 @@ import java.util.Scanner;
 public class Grade {
 
     public static void main(String[] args) {
+        gradeCalculator();
+
+    }
+    private static void gradeCalculator(){
         Scanner scan = new Scanner(System.in);
         double score = scan.nextDouble();
-            scan.close();  // closes the scanner and we will not be able to use it afterward
+        scan.close();                   // closes the scanner and we will not be able to use it afterward
 
         String result = "";
 
-        if(score >= 0 && score<= 100){ // 5 possible outcomes
+        if(score >= 0 && score<= 100){  // 5 possible outcomes
 
             if(score>= 90 ){
                 result = "Excellent";
@@ -32,12 +36,11 @@ public class Grade {
                 result = "Failed";
             }
 
-        }else{ // 1 possible outcomes
+        }else{                          // 1 possible outcomes
             result = "Invalid Entry";
         }
 
         System.out.println(result);
-
 
 
     }
