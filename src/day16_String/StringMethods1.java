@@ -1,6 +1,6 @@
 package day16_String;
 
-public class String_Methods {
+public class StringMethods1 {
 
     public static void main(String[] args) {
 

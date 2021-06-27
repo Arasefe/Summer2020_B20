@@ -1,6 +1,6 @@
 package day17_StringReview;
 
-public class String_Methods2 {
+public class StringMethods2 {
      /*
     String methods:  contains,  ends, starts
      */

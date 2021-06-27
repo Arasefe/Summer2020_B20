@@ -6,13 +6,13 @@ public class Practice {
 
     public static void main(String[] args) {
         Scanner scan= new Scanner(System.in);
-        System.out.println("Are you employeed?");
+        System.out.println("Are you employed?");
         String answer = scan.next();
 
         if(answer.equalsIgnoreCase("yes")){
-            System.out.println("Employeed");
+            System.out.println("Employed");
         }else{
-            System.out.println("Not employeed");
+            System.out.println("Not employed");
         }
 
 
