@@ -1,13 +1,13 @@
 package day18_ForLoop;
 
-public class Forloop_Practice {
+public class ForLoopPractice {
 
     public static void main(String[] args) {
 
 
-        for( int i = 1;  i <= 5; ++i ){ //i: 1, 2, 3, 4, 5, 6
+        for( int i = 1;  i <= 5; ++i ){                 //i: 1, 2, 3, 4, 5, 6
 
-            System.out.println("Cybertek Batch 20"); //5
+            System.out.println("Cybertek Batch 20");    //5
 
         }
 
