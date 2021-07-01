@@ -1,6 +1,6 @@
 package day20_WhileLoops;
 
-public class WhileLoop_Practice1 {
+public class WhileLoopPractice1 {
 
     public static void main(String[] args) {
 

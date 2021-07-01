@@ -7,29 +7,31 @@ package day20_WhileLoops;
 import java.util.Scanner;
 
 public class UntilNegative {
-
+    static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
+        sumOfNumsUntilNegative();
 
-        Scanner scan = new Scanner(System.in);
+    }
+
+    private static void sumOfNumsUntilNegative(){
+
         int sum = 0;
 
-        for(int i = 0; i < 100; ){
+        for (int i = 0; i < 100; ) {
             System.out.println("Enter a number: ");
-             int num =   scan.nextInt();
+            int num = scan.nextInt();
 
 
-             if(num<0){
-                 break;
-             }
+            if (num < 0) {
+                break;
+            }
 
             sum += num;
 
 
         }
 
-        System.out.println("sum is: "+sum);
-
-
+        System.out.println("sum is: " + sum);
 
 
     }

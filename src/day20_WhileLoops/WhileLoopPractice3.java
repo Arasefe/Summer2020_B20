@@ -2,7 +2,7 @@ package day20_WhileLoops;
 
 import java.util.Scanner;
 
-public class WhileLopp_Practice3 {
+public class WhileLoopPractice3 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);

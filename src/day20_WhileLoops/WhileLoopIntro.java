@@ -1,6 +1,6 @@
 package day20_WhileLoops;
 
-public class WhileLoop {
+public class WhileLoopIntro {
 
     public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class WhileLoop {
         }
 
         /*
-        for(int i= 0; i ==0;){
+        for(int i= 0; i ==0;){      Unreachable Statement
 
         }
          */

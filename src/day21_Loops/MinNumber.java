@@ -1,17 +1,20 @@
 package day21_Loops;
 
 import java.util.Scanner;
-// 2. write a program that asks user to enter 5 numbers and returns the minimum number
+// 2. write a program that asks user to enter 10 numbers and returns the minimum number
 public class MinNumber {
-
+    static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int min = 2147483647; //3
+        minNumber();
+
+    }
+
+    private static void minNumber(){
+        int min = 2147483647;           //Max number of Int
 
         for(int i =1; i <= 10; i++){
-
             System.out.println("Enter a number");
-            int num = scan.nextInt(); // 50, 10, 5, 20, 3
+            int num = scan.nextInt();   // 50, 10, 5, 20, 3
 
             if(num < min){
                 min = num;
@@ -20,9 +23,6 @@ public class MinNumber {
         }
 
         System.out.println("Minimum number: "+min);
-
-
-
     }
 
 
