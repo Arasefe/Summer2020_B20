@@ -3,9 +3,12 @@ package day23_Arrays;
 import java.util.Scanner;
 
 public class Calculator {
+    static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        calculator();
+    }
+    private static void calculator(){
 
         while(true){
 
@@ -51,9 +54,9 @@ public class Calculator {
 
 
             System.out.println("Do you want to continue?");
-            String a = input.next().toLowerCase();  // yes
+            String a = input.next().toLowerCase();              // yes
 
-            while(  ! (a.equals("yes") || a.equals("no")) ){ // while the answer is invalid
+            while(  ! (a.equals("yes") || a.equals("no")) ){    // while the answer is invalid
                 System.out.println("Invalid Answer, please enter yes or no");
                 System.out.println("Do you want to continue?");
                 a = input.next().toLowerCase();

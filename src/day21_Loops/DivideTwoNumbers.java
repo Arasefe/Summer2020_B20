@@ -23,12 +23,16 @@ package day21_Loops;
 public class DivideTwoNumbers {
 
     public static void main(String[] args) {
+        division();
+    }
+
+    private static void division(){
         int a = 20; //2
         int b = 3;
 
         if(b == 0){
             System.out.println("Invalid Input");
-            System.exit(0); // forcefully teminating the program
+            System.exit(0); // forcefully terminating the program
         }
 
 
@@ -42,8 +46,4 @@ public class DivideTwoNumbers {
         System.out.println(count+" with a remainder of "+a);
 
     }
-
-
-
-
 }

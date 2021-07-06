@@ -11,20 +11,23 @@ package day20_WhileLoops;
 import java.util.Scanner;
 
 public class FactorialNumber {
-
+    static Scanner scan = new Scanner(System.in);
     public static void main(String[] args) {
+        factorialNumber();
 
-        Scanner scan = new Scanner(System.in);
+    }
+
+    private static void factorialNumber() {
+        System.out.println("Please enter a number: ");
         int n = scan.nextInt();
 
-        double result = 1; // 5 * 4 * 3 * 2 * 1 == 120
+        double result = 1;              // 5 * 4 * 3 * 2 * 1 == 120
 
-        for(int i = n; i >= 1; i-- ){ // i: 5, 4, 3, 2, 1
+        for (int i = n; i >= 1; i--) {  // i: 5, 4, 3, 2, 1
             result *= i;
         }
 
         System.out.println(result);
 
     }
-
 }

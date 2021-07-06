@@ -22,22 +22,25 @@ import java.util.Scanner;
 public class Calculator {
 
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.println("ener your first number: ");
-        double num1 =  scan.nextDouble();
+        calculator();
+    }
 
-        System.out.println("ener your second number: ");
-        double num2 =  scan.nextDouble();
+    private static void calculator() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("enter your first number: ");
+        double num1 = scan.nextDouble();
+
+        System.out.println("enter your second number: ");
+        double num2 = scan.nextDouble();
 
         System.out.println("Enter your math operator: ");
-        char operator =    scan.next().charAt(0);
+        char operator = scan.next().charAt(0);
         //@ , ~
         //  *, / , +, -, %
-        boolean valid = operator == '*' || operator == '/' || operator == '%' || operator == '+' ||operator == '-';
+        boolean valid = operator == '*' || operator == '/' || operator == '%' || operator == '+' || operator == '-';
 
-        if(valid){
+        if (valid) {
 
-            /*
             switch(operator){
                 case '*':
                     System.out.println(num1*num2);
@@ -59,17 +62,9 @@ public class Calculator {
                     System.out.println(num1 - num2);
             }
 
-             */
-
-
-        }else{
+        } else {
             System.out.println("Invalid Operator");
         }
 
-
-
-
-
     }
-
 }
