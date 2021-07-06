@@ -3,8 +3,13 @@ package day23_Arrays;
 import java.util.Scanner;
 
 public class Days {
+    static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
+        weekDays();
+    }
+
+    private static void weekDays(){
         String[] days = new String[7];
         days[6] = "Sunday";
         days[1] = "Tuesday";
@@ -20,15 +25,10 @@ public class Days {
 
         System.out.println();
 
-        System.out.println("==============================");
-        Scanner scan = new Scanner(System.in);
-
         System.out.println("Enter a number between 1 ~7");
         int n = scan.nextInt();
 
-        System.out.println( days[n-1]);
-
-
+        System.out.println( days[n-1]);             // index starts 0
 
     }
 

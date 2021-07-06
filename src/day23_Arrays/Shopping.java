@@ -14,15 +14,9 @@ public class Shopping {
         shoppingList[3] = "Milk";
         shoppingList[5] = "Water";
 
-        for(int i = 0; i <= shoppingList.length-1; i++){
-            System.out.println(shoppingList[i] );
+        for (int i = 0; i <= shoppingList.length - 1; i++) {
+            System.out.println(shoppingList[i]);
         }
-
-
-
-
-
-
 
 
     }

@@ -10,7 +10,7 @@ public class Months {
         System.out.println("Enter a number between 1 ~ 12");
         int n = scan.nextInt(); // 5
 
-        System.out.println( months[n-1] );
+        System.out.println(months[n - 1]);
 
 
     }

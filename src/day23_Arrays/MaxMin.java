@@ -3,29 +3,29 @@ package day23_Arrays;
 public class MaxMin {
 
     public static void main(String[] args) {
-        int[] arr = {5,5,4,6,4,1, -100, 100, 200, 3000, -3000};
-        int max = arr[0]; // 6
-        int min = arr[0]; // 1
+        maxAndMin();
+    }
 
-        for(int i = 1; i <= arr.length-1; i++){
+    private static void maxAndMin() {
+        int[] arr = {5, 5, 4, 6, 4, 1, -100, 100, 200, 3000, -3000};
+        int max = arr[0];       // 6
+        int min = arr[0];       // 1
 
-            if(arr[i] > max){ // compares the array' elemnts, and assign the maximum number to variable max
+        for (int i = 1; i <= arr.length - 1; i++) {
+
+            if (arr[i] > max) { // compares the array' elements, and assign the maximum number to variable max
                 max = arr[i];
             }
 
-            if(arr[i] < min){
+            if (arr[i] < min) {
                 min = arr[i];
             }
 
         }
 
 
-        System.out.println("Max Number: "+max);
-        System.out.println("Min Number: "+min);
-
-
-
-
+        System.out.println("Max Number: " + max);
+        System.out.println("Min Number: " + min);
 
 
     }
