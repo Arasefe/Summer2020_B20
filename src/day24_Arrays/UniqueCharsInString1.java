@@ -6,7 +6,7 @@ package day24_Arrays;
             output: bd
  */
 
-public class UniqueLettersInString {
+public class UniqueCharsInString1 {
 
 
     public static void main(String[] args) {
