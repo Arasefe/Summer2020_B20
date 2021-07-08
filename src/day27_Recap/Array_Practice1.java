@@ -1,4 +1,4 @@
-package day27_recap;
+package day27_Recap;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package day27_recap;
+package day27_Recap;
 
 public class ForEachLoop {
 
