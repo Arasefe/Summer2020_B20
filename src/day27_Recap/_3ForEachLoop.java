@@ -1,6 +1,6 @@
 package day27_Recap;
 
-public class ForEachLoop {
+public class _3ForEachLoop {
 
     public static void main(String[] args) {
 
