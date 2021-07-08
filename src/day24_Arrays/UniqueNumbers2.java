@@ -2,13 +2,19 @@ package day24_Arrays;
 
 public class UniqueNumbers2 {
     public static void main(String[] args) {
+        uniqueNumbersInArray();
+
+
+    }
+
+    private static void uniqueNumbersInArray(){
         int[] arr = {1,1,2,3,3,4,5,5,6,7,7,8,9,9};
 
 
         for(int a: arr){
             int count = 0 ;
-            for(int b: arr){  // only calculates the frequnecy of num
-                if(b == a){
+            for(int each: arr){  // only calculates the frequency of num
+                if(each == a){
                     count++;
                 }
             }
@@ -16,8 +22,6 @@ public class UniqueNumbers2 {
                 System.out.print(a+" ");
             }
         }
-
-
 
     }
 }
