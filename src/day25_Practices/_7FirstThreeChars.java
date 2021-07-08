@@ -5,7 +5,7 @@ package day25_Practices;
                 Example: arr -> ["apple", "banana"]
                         prints:  appban
  */
-public class FirstThreeChars {
+public class _7FirstThreeChars {
 
     public static void main(String[] args) {
         String[] words = {"Apple", "Banana", "Strawberry", "Java", "Python"};

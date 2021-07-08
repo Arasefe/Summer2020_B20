@@ -2,7 +2,7 @@ package day25_Practices;
 
 import java.util.Arrays;
 
-public class Array_1_100 {
+public class _4Array1To100 {
 
     public static void main(String[] args) {
       int[] numbers = new int[100];
