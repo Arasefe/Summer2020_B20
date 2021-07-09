@@ -2,7 +2,7 @@ package day28_Recap;
 
 import java.util.Arrays;
 
-public class MultiD_Array {
+public class _6MultiDArray {
 
     public static void main(String kfc[]) {
         int[] arr1D = {1,2,3};
