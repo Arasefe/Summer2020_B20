@@ -42,9 +42,9 @@ public class _5ArraysShortQuiz {
         int[] nums = {15, 30, 45, 60, 75};
         //             0  1  2  3  4
 
-        nums[2] = nums[4];  //{15,30,75,60,75};
-        //nums[2] = 75;
-        nums[4] = 90; //{15,30,75,60,90}
+        nums[2] = nums[4];  // {15,30,75,60,75};
+                            // nums[2] = 75;
+        nums[4] = 90;       // {15,30,75,60,90}
 
         System.out.println(Arrays.toString(nums));
 
