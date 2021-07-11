@@ -6,7 +6,7 @@ package day31_Recap;
 2. identify if a string is palindrome
  */
 
-public class Method_Practice2 {
+public class _3Method_Practice {
 
     public static void main(String[] args) {
         String name ="madam";

@@ -1,8 +1,9 @@
 package day31_Recap;
 
-public class WarmupTasks {
+public class _1WarmupTasks {
 /*
-1.  write a return method called frequency that accepts two parameters: string str and char ch, the method returns the frequency of the ch from the str as an int
+1. Write a return method called frequency that accepts two parameters:
+string str and char ch, the method returns the frequency of the ch from the str as an int
 			Ex:
 				frequency("AAA", 'A') ==>  3
 				frequency("ABAB", 'B') ==> 2
@@ -24,8 +25,6 @@ public class WarmupTasks {
         }
 
         System.out.println(uniques);
-
-        System.out.println("======================================");
 
         String str2 = "pppoiiiiuuuuytttttr";
         String uniques2 = uniques(str2);
