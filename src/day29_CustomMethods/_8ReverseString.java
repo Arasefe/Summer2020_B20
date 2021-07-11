@@ -1,6 +1,6 @@
 package day29_CustomMethods;
 
-public class ReverseString {
+public class _8ReverseString {
 
 
     public static void main(String[] args) {
@@ -16,6 +16,7 @@ public class ReverseString {
         for(int i = str.length()-1;  i >=0 ; i--){
             result += str.charAt(i);
         }
+
         System.out.println(result);
     }
 

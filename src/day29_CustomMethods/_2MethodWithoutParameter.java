@@ -8,7 +8,7 @@ step4: print your name
 step5: print hello world 5 times
  */
 
-public class methodWithoutParameter {
+public class _2MethodWithoutParameter {
 
     public static void main(String[] args) {
 

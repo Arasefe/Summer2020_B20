@@ -1,11 +1,10 @@
 package day29_CustomMethods;
 
-public class Method_Practice {
+public class _4EvenOddNumbers {
     /*
 	1. create a method that can print odd numbers between 1~100 in a same line seperated by space
 	2. create a method that can print even numbers between 0~100
      */
-
 
 
     public static void main(String[] args) {
@@ -22,21 +21,21 @@ public class Method_Practice {
     }
 
 
-    //  task1:
-    public static void oddNumbers(){
+    //  Task1:
+    public static void oddNumbers() {
 
-        for(int i =1; i <= 100; i +=2){
-            System.out.print(i +" ");
+        for (int i = 1; i <= 100; i += 2) {
+            System.out.print(i + " ");
         }
         System.out.println();
     }
 
 
-    // task2:
-    public static void evenNumbers(){
+    // Task2:
+    public static void evenNumbers() {
 
-        for(int i =0; i <= 100; i+=2){
-            System.out.print(i+" ");
+        for (int i = 0; i <= 100; i += 2) {
+            System.out.print(i + " ");
         }
         System.out.println();
     }

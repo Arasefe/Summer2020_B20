@@ -7,7 +7,7 @@ step4: print your name
 step5: print hello world 5 times
  */
 
-public class MethodsWithoutParameter2 {
+public class _3MethodsWithoutParameter2 {
 
     /*
     Access-Modifier  Specifiers  return-type   name(){
@@ -26,17 +26,11 @@ public class MethodsWithoutParameter2 {
     }
 
 
-
-
-    public static void  printHello5X(){
-        for(int i = 10; i >= 6; i-- ){
+    public static void printHello5X() {
+        for (int i = 10; i >= 6; i--) {
             System.out.println("Hello World");
         }
     }
-
-
-
-
 
 
 }
