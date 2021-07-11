@@ -2,7 +2,7 @@ package day30_CustomMethods;
 
 import java.util.Arrays;
 
-public class ReturnMethods4 {
+public class _6ReturnMethods {
 
     public static void main(String[] args) {
         int[] a1 = {1,2,3};
@@ -19,20 +19,20 @@ public class ReturnMethods4 {
 
 
     public static int[] combine2Arrays(int[] arr1, int[] arr2){
-        int[] arr3 = new int[arr1.length + arr2.length];
+        int[] combined = new int[arr1.length + arr2.length];
 
         int i = 0;
         for(int each  :  arr1){
-            arr3[i] = each;
+            combined[i] = each;
             i++;
         }
 
         for(int each : arr2){
-            arr3[i]= each;
+            combined[i]= each;
             i++;
         }
 
-        return arr3;
+        return combined;
 
     }
 

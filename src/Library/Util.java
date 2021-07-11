@@ -59,7 +59,7 @@ public class Util {
 
         return uniques;
     }
-    // retunrs the uniiques from the string
+    // returns the uniques from the string
 
     public static String frequencyOfChars(String str) {
 

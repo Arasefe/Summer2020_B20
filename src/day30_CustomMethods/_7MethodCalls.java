@@ -2,7 +2,7 @@ package day30_CustomMethods;
 
 import Library.Util;
 
-public class MethodCalls {
+public class _7MethodCalls {
 
     public static void main(String[] args) {
         String str = "aaaabbbbbbbbcccccccccc";
