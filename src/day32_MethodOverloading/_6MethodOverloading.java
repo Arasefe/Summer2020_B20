@@ -11,7 +11,7 @@ tasks1:
 	3. create a method that can find the addition of four numbers
 						addition4Numbers
  */
-public class MethodOverloading2 {
+public class _6MethodOverloading {
 
 
     public static void main(String[] args) {
@@ -40,9 +40,11 @@ public class MethodOverloading2 {
     public static void addition4Number(double a, double b, double c, double d){
         System.out.println(a+b+c+d);
     }
-
-    //=============================================
-
+    /* Above is a way but pretty hard to remember all the method names
+        With method overloading
+        First easy to remember
+        And easy maintenance
+     */
     public static void addition(double a, double b){
         System.out.println(a+b);
     }
