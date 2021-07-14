@@ -2,7 +2,7 @@ package day33_LocalDateTime;
 
 import java.util.Arrays;
 
-public class Calculate {
+public class _6Calculate {
     /*
     Task01:
 		1. create a method that can calculate the addition of two integers

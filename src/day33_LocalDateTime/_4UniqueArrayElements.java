@@ -1,6 +1,6 @@
 package day33_LocalDateTime;
 
-public class Uniques {
+public class _4UniqueArrayElements {
 
     public static void main(String[] args) {
         int[] arr = {2,2,1,3,3, 4, 5, 6};
