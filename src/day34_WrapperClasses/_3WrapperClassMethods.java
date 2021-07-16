@@ -1,6 +1,6 @@
 package day34_WrapperClasses;
 
-public class WrapperClass_Methods {
+public class _3WrapperClassMethods {
 
     public static void main(String[] args) {
         String str = "123";
