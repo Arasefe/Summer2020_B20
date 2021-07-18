@@ -10,7 +10,7 @@ package day35_ArrayList;
 
 import java.util.ArrayList;
 
-public class Combine2Arrays_List {
+public class _3CombineTwoArraysList {
 
     public static void main(String[] args) {
 
