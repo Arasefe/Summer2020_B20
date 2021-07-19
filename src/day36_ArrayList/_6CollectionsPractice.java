@@ -3,7 +3,7 @@ package day36_ArrayList;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Collections_Practice {
+public class _6CollectionsPractice {
     /*
      {30,20, 40, 50, 15};
 

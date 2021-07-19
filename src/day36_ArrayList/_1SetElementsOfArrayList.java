@@ -2,7 +2,7 @@ package day36_ArrayList;
 
 import java.util.ArrayList;
 
-public class Set_Method {
+public class _1SetElementsOfArrayList {
     /*
     1. write a program that can set the last element of the Integer arraylist to zero
 			ex:

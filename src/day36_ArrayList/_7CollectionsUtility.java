@@ -3,7 +3,7 @@ package day36_ArrayList;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Collections_Utility {
+public class _7CollectionsUtility {
     /*
      Arrays: utility class for array
      Collections: utility for collection
