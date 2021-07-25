@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.function.Predicate;
 
-public class Lambda_Expression {
+public class _8LambdaExpression {
 
     public static void main(String[] args) {
 

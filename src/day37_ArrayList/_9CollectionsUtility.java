@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class CollectionsUtility {
+public class _9CollectionsUtility {
 
     public static void main(String[] args) {
 

@@ -3,7 +3,7 @@ package day37_ArrayList;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Practice {
+public class _7RemovePractice {
 
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<>();

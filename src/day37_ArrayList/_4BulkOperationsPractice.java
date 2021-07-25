@@ -3,10 +3,13 @@ package day37_ArrayList;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class BulkOperations_Practice {
+public class _4BulkOperationsPractice {
 
     public static void main(String[] args) {
+        bulkOperationPractice();
+    }
 
+    private static void bulkOperationPractice(){
         ArrayList<String> students = new ArrayList<>();
         students.add("Sayeem");
         students.add("Waqar");
@@ -15,14 +18,11 @@ public class BulkOperations_Practice {
         students.add("Ramazan");
         students.add("Mehary");
 
-
-
         // verify that the names Ulku, Busra are contained in students list
         boolean r1 = students.containsAll(  Arrays.asList("Ulku", "Busra", "Muhtar")   );
 
         System.out.println(r1);
 
-        System.out.println("==================================================");
 
         ArrayList<String> group1 = new ArrayList<>();
 
@@ -38,8 +38,6 @@ public class BulkOperations_Practice {
         System.out.println(r2);
 
 
-        System.out.println("====================================================");
-
         ArrayList<String> employees =new ArrayList<>();
         employees.addAll( Arrays.asList( "Ahmed", "Muhtar", "Ahmed", "Virginia", "Beslan", "Ibrahim", "Ahmed") );
 
@@ -47,7 +45,6 @@ public class BulkOperations_Practice {
 
         employees.retainAll(  Arrays.asList("Ahmed", "Dawud")  );
         System.out.println(employees);
-
 
 
     }

@@ -3,7 +3,7 @@ package day37_ArrayList;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Remove_Digits_Letters {
+public class _6RemoveDigitsLetters {
 
     public static void main(String[] args) {
 
