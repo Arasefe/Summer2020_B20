@@ -1,6 +1,6 @@
 package day43_Static;
 
-import day42_Static.Tester;
+import day42_Static.scrumTeam.Tester;
 
 public class staticBlock2 {
 
