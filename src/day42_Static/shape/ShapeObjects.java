@@ -8,8 +8,8 @@ public class ShapeObjects {
         Circle c1 = new Circle();
         c1.setInfo(25);
 
-        System.out.println( c1.calcArea() );
-        System.out.println( c1.calcPerimeter());
+        System.out.println(c1.calcArea());
+        System.out.println(c1.calcPerimeter());
 
         System.out.println("==================================");
         System.out.println(c1);
@@ -21,7 +21,7 @@ public class ShapeObjects {
 
         System.out.println(c2);
 
-        System.out.println("=====================================");
+        System.out.println("===================================");
 
         Circle c3 = new Circle();
 
@@ -34,7 +34,7 @@ public class ShapeObjects {
     }
 
 
-    public void method1(){
+    public void method1() {
         int a = 200;
         // static int b = 300;
     }
