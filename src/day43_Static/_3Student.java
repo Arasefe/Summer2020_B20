@@ -12,7 +12,7 @@ public class _3Student {
 
 
     public void getInfo() {
-        System.out.println("Name: " + studentName);
+        System.out.println("Name: " + studentName+" Age: "+age+" Gender: "+gender);
     }
 
     public static void printSchoolName() {

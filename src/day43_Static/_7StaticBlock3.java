@@ -1,6 +1,6 @@
 package day43_Static;
 
-public class StaticBlock3 {
+public class _7StaticBlock3 {
 
     static int a;
     static int b;

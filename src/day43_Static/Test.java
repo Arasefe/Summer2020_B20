@@ -9,9 +9,9 @@ public class Test {
 
 
     public static void main(String[] args) {
-        System.out.println(StaticBlock3.a);
-        System.out.println(StaticBlock3.b);
-        System.out.println(StaticBlock3.c);
+        System.out.println(_7StaticBlock3.a);
+        System.out.println(_7StaticBlock3.b);
+        System.out.println(_7StaticBlock3.c);
 
         System.out.println( Arrays.toString(Data.arr) );
         System.out.println(Data.list);
