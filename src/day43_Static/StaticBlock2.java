@@ -2,7 +2,7 @@ package day43_Static;
 
 import day42_Static.scrumTeam.Tester;
 
-public class staticBlock2 {
+public class StaticBlock2 {
 
     static int a;
     static String b ;
