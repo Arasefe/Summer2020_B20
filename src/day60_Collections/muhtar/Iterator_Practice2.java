@@ -6,9 +6,9 @@ import java.util.Iterator;
 
 public class Iterator_Practice2 {
     public static void main(String[] args) {
-        //iteratorMethod1(new ArrayList<String>(Arrays.asList("Aras","Tulpar","Banu","Efe","Ismail","Ahmet","Mehmet")));
+        iteratorMethod1(new ArrayList<String>(Arrays.asList("Aras","Tulpar","Banu","Efe","Ismail","Ahmet","Mehmet")));
         //iteratorMethod2(new ArrayList<String>(Arrays.asList("Aras","Tulpar","Banu","Efe","Ismail","Ahmet","Mehmet")));
-        iteratorMethod3(new ArrayList<String>(Arrays.asList("Aras","Tulpar","Banu","Efe","Ismail","Ahmet","Mehmet")));
+        //iteratorMethod3(new ArrayList<String>(Arrays.asList("Aras","Tulpar","Banu","Efe","Ismail","Ahmet","Mehmet")));
     }
 
     public static void iteratorMethod1(ArrayList<String>list){

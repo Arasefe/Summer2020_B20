@@ -8,9 +8,9 @@ public class Student {
     char gender;
 
     static String schoolName = "Cybertek School";
-    static String favoriteTeacher ="Nadir";
+    static String favoriteTeacher = "Nadir";
 
-    public void setInfo(String name, int age, int groupNumber, char gender){
+    public void setInfo(String name, int age, int groupNumber, char gender) {
         this.name = name;
         this.age = age;
         this.groupNumber = groupNumber;
@@ -18,9 +18,9 @@ public class Student {
     }
 
 
-    public String toString(){ // instance method
+    public String toString() { // instance method
 
-        return "School Name: " + schoolName +"\nStudent Name: " + name;
+        return "School Name: " + schoolName + "\nStudent Name: " + name;
         //                       static variable                   instance variable
     }
 
