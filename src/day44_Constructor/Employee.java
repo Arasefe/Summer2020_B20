@@ -5,7 +5,7 @@ package day44_Constructor;
                     name, id, ssn, jobTitle, salary, gender
 
             static variables:
-            		isEmployeed, hasSalary
+            		isEmployed, hasSalary
 
             actions:
                     setEmployeeInfo(): can initialize all the instance variables
